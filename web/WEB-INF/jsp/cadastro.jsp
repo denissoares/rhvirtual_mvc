@@ -18,7 +18,7 @@
     <body>
         <div class="container">
             <div class="col-md-6 cadastro">
-                <h1>Cadastro Funcionário</h1>
+                <h1 class="text-center">Cadastro Funcionário</h1><br/>
                 <form action="index" method="POST">
                         <div class="form-group">
                             Nome
@@ -43,9 +43,9 @@
                         <div class="form-group">
                             Senha
                             <input type="tetxt" name="senha" id="senha" class="form-control" required>           
-                        </div>  
+                        </div><br /> 
 
-                        <div class="form-group">
+                        <div class="text-center">
                             <input type="submit" id="submit" class=" btn btn-primary" value="Cadastrar Funcionário">           
                         </div>  
                        
