@@ -32,7 +32,7 @@
 
                         <div class="form-group">
                             Telefone
-                            <input type="tel" name="telefone" id="telefone" class="form-control" required>           
+                            <input type="int" name="telefone" id="telefone" class="form-control" required>           
                         </div>
 
                         <div class="form-group">
@@ -47,7 +47,11 @@
 
                         <div class="text-center">
                             <input type="submit" id="submit" class=" btn btn-primary" value="Cadastrar Funcionário">           
-                        </div>  
+                        </div><br /><br /><br />
+                        
+                        <div class="text-center">
+                            <a href="exibir" class="btn btn-link">Listar Usúarios Cadastrado</a>
+                        </div>
                        
                     </form>
             </div>

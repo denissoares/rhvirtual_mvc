@@ -39,8 +39,11 @@
                         
                     </c:forEach>
                 </tbody>
-            </table>
+            </table><br /><br /><br />
             
+            <div class="text-center">
+                <a href="cadastro" class="btn btn-link">Cadastro de Usuário</a>
+            </div>
         </div>
     </body>
 </html>
